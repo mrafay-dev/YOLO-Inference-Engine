@@ -1,0 +1,48 @@
+# Build directories
+build/
+cmake-build-*/
+*.o
+*.so
+*.a
+*.exe
+*.dll
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+compile_commands.json
+
+# Executables
+main
+yolov8n_basic
+yolov8n_camera
+yolov8_optimized
+simple
+*.out
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output images
+*.jpg
+*.png
+*.bmp
+result.jpg
+capture_*.jpg
+output*.jpg
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
