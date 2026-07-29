@@ -4,6 +4,7 @@
 #include <chrono>
 #include <onnxruntime_cxx_api.h>
 #include <opencv2/opencv.hpp>
+#include "utils/types.hpp"
 
 //COCO class names
 static const std::vector<std::string> COCO_CLASSES = {
