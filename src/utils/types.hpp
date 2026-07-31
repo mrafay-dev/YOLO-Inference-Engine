@@ -1,3 +1,5 @@
+//centralises data structures and configs
+
 #ifndef YOLO_TYPES_HPP
 #define YOLO_TYPES_HPP
 
@@ -70,6 +72,11 @@ struct ModelConfig {
             default: return "Unknown";
         }
     }
+};
+
+struct FrameWithResults {
+    cv::Mat frame;              //original frame
+    DetectionResults results;   //detection results
 };
 
 // COCO class names 
